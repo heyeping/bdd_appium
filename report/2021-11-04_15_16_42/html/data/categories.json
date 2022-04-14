@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "AttributeError: 'WebDriver' object has no attribute 'driver'\n",
+      "children" : [ {
+        "name" : "正常创建酒店项目",
+        "uid" : "88708bd15eb00f18",
+        "parentUid" : "b21201aa8aec5c0dc24262447c8794a9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1636010213189,
+          "stop" : 1636010213199,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b21201aa8aec5c0dc24262447c8794a9"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

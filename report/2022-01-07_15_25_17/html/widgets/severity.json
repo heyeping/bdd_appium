@@ -1,0 +1,11 @@
+[ {
+  "uid" : "dc492e8e1cbb0880",
+  "name" : "正常创建酒店项目",
+  "time" : {
+    "start" : 1641540331482,
+    "stop" : 1641540341040,
+    "duration" : 9558
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

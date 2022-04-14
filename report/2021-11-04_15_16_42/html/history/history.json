@@ -1,0 +1,22 @@
+{
+  "3931f8a248bc824c701e2d512eff8a54" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "88708bd15eb00f18",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WebDriver' object has no attribute 'driver'\n",
+      "time" : {
+        "start" : 1636010213189,
+        "stop" : 1636010213199,
+        "duration" : 10
+      }
+    } ]
+  }
+}

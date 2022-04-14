@@ -1,0 +1,139 @@
+{
+  "uid" : "88708bd15eb00f18",
+  "name" : "正常创建酒店项目",
+  "fullName" : "创建项目: 正常创建酒店项目",
+  "historyId" : "3931f8a248bc824c701e2d512eff8a54",
+  "time" : {
+    "start" : 1636010213189,
+    "stop" : 1636010213199,
+    "duration" : 10
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'WebDriver' object has no attribute 'driver'\n",
+  "statusTrace" : "  File \"/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"feature_test/steps/hotel_app.py\", line 24, in step_impl\n    el = DriverApi.find_element_until_visibility(context.driver, by=By.ID, locator='com.ayla.hotelsaas:id/bt_add')\n  File \"/Users/heyeping/Documents/testProject/bdd_appium/feature_test/utils/DriverApi.py\", line 16, in find_element_until_visibility\n    ele = WebDriverWait(self.driver, timeout, poll_frequency=0.1).until(EC.visibility_of_element_located((by, locator)))\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'WebDriver' object has no attribute 'driver'\n",
+    "statusTrace" : "  File \"/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"feature_test/steps/hotel_app.py\", line 24, in step_impl\n    el = DriverApi.find_element_until_visibility(context.driver, by=By.ID, locator='com.ayla.hotelsaas:id/bt_add')\n  File \"/Users/heyeping/Documents/testProject/bdd_appium/feature_test/utils/DriverApi.py\", line 16, in find_element_until_visibility\n    ele = WebDriverWait(self.driver, timeout, poll_frequency=0.1).until(EC.visibility_of_element_located((by, locator)))\n",
+    "steps" : [ {
+      "name" : "Given 项目名称 通过bdd脚本创建",
+      "time" : {
+        "start" : 1636010213190,
+        "stop" : 1636010213191,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When 在首页点击添加按钮",
+      "time" : {
+        "start" : 1636010213191,
+        "stop" : 1636010213198,
+        "duration" : 7
+      },
+      "status" : "broken",
+      "statusMessage" : "AttributeError: 'WebDriver' object has no attribute 'driver'\n",
+      "statusTrace" : "  File \"/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"feature_test/steps/hotel_app.py\", line 24, in step_impl\n    el = DriverApi.find_element_until_visibility(context.driver, by=By.ID, locator='com.ayla.hotelsaas:id/bt_add')\n  File \"/Users/heyeping/Documents/testProject/bdd_appium/feature_test/utils/DriverApi.py\", line 16, in find_element_until_visibility\n    ele = WebDriverWait(self.driver, timeout, poll_frequency=0.1).until(EC.visibility_of_element_located((by, locator)))\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "And 输入项目名称 通过bdd脚本创建的",
+      "time" : {
+        "start" : 1636010213199,
+        "stop" : 1636010213199,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And 点击 保存 按钮",
+      "time" : {
+        "start" : 1636010213199,
+        "stop" : 1636010213199,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then 验证列表中最新的项目名称",
+      "time" : {
+        "start" : 1636010213199,
+        "stop" : 1636010213199,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "创建项目"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "88708bd15eb00f18.json",
+  "parameterValues" : [ ]
+}

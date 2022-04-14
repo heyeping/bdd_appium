@@ -1,0 +1,22 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "创建项目",
+    "children" : [ {
+      "name" : "正常创建酒店项目",
+      "uid" : "f29c3d3938f045eb",
+      "parentUid" : "a00ef6751516f3881f5c242bc6a1655a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626751781203,
+        "stop" : 1626751790996,
+        "duration" : 9793
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a00ef6751516f3881f5c242bc6a1655a"
+  } ]
+}
